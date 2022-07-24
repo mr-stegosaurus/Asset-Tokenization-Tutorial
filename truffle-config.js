@@ -6,7 +6,7 @@ module.exports = {
   contracts_build_directory: path.join(__dirname, "client/src/contracts"),
   networks: {
     development: {
-      host: "172.20.176.1",
+      host: "192.168.80.1",
       port: 7545,
       network_id: "*" // Match any network id
     }
